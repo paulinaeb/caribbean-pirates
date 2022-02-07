@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<servidor>
+    <nombre>Pantalla 3</nombre>
+    
+    <localizaciones>        
+        <localizacion>
+            <id>5</id>
+            <nombre>Isla Tortuga</nombre>
+            <terreno>isla</terreno>
+            <x>10</x>
+            <y>10</y> 
+        </localizacion>
+        <localizacion>
+            <id>6</id>
+            <nombre>Isla las Aves</nombre>
+            <terreno>isla</terreno>
+            <x>200</x>
+            <y>250</y> 
+        </localizacion>
+        <localizacion>
+            <nombre>Cueva de los huesos</nombre>
+            <posicion>5</posicion>
+            <navegacion>8</navegacion>
+            <calamidades>
+                <calamidad>
+                    <nombre>Dragon bola de fuego chino</nombre>
+                    <quitaTripulacion>30</quitaTripulacion>
+                    <quitaMunicion>50</quitaMunicion>
+                    <quitaRacion>30</quitaRacion> 
+                    <probabilidad>0.01</probabilidad>
+                </calamidad>
+                <calamidad>
+                    <nombre>Voldemort</nombre>
+                    <quitaTripulacion>10</quitaTripulacion>
+                    <quitaMunicion>15</quitaMunicion>
+                    <quitaRacion>20</quitaRacion> 
+                    <probabilidad>0.03</probabilidad>
+                </calamidad>
+            </calamidades>
+            <cofres>
+                <cofre>
+                    <nombre>Cofres de piedras preciosas</nombre>
+                    <peso>10</peso>
+                    <valor>1</valor>
+                </cofre>
+                <cofre>
+                    <nombre>Cofres de piedras preciosas</nombre>
+                    <peso>10</peso>
+                    <valor>1</valor>
+                </cofre>
+                <cofre>
+                    <nombre>Corazon de la princesa</nombre>
+                    <peso>5</peso>
+                    <valor>3</valor>
+                </cofre>
+            </cofres>
+        </localizacion>
+        
+        <localizacion>
+            <nombre>Bahía del buen retiro</nombre>
+            <posicion>5</posicion>
+            <navegacion>5</navegacion>
+            <calamidades>
+                <calamidad>
+                    <nombre>Sirenas asesinas</nombre>
+                    <quitaTripulacion>10</quitaTripulacion>
+                    <quitaMunicion>8</quitaMunicion>
+                    <quitaRacion>15</quitaRacion> 
+                    <probabilidad>0.01</probabilidad>
+                </calamidad>
+                <calamidad>
+                    <nombre>Dementores</nombre>
+                    <quitaTripulacion>10</quitaTripulacion>
+                    <quitaMunicion>0</quitaMunicion>
+                    <quitaRacion>20</quitaRacion> 
+                    <probabilidad>0.03</probabilidad>
+                </calamidad>
+            </calamidades>
+        </localizacion>  
+
+        <localizacion>
+            <nombre>Bahía de las flores</nombre>
+            <posicion>6</posicion>
+            <navegacion>5</navegacion>
+            <calamidades>
+                <calamidad>
+                    <nombre>Dementores</nombre>
+                    <quitaTripulacion>10</quitaTripulacion>
+                    <quitaMunicion>0</quitaMunicion>
+                    <quitaRacion>20</quitaRacion> 
+                    <probabilidad>0.03</probabilidad>
+                </calamidad>
+            </calamidades>
+        </localizacion>
+        
+        <localizacion>
+            <nombre>Cementerio de Barcos</nombre>
+            <posicion>6</posicion>
+            <navegacion>5</navegacion>
+            <calamidades>
+                <calamidad>
+                    <nombre>Megalodonte</nombre>
+                    <quitaTripulacion>50</quitaTripulacion>
+                    <quitaMunicion>50</quitaMunicion>
+                    <quitaRacion>40</quitaRacion> 
+                    <probabilidad>0.01</probabilidad>
+                </calamidad>
+                <calamidad>
+                    <nombre>Sirenas asesinas</nombre>
+                    <quitaTripulacion>10</quitaTripulacion>
+                    <quitaMunicion>8</quitaMunicion>
+                    <quitaRacion>20</quitaRacion> 
+                    <probabilidad>0.05</probabilidad>
+                </calamidad>
+            </calamidades>
+        </localizacion>   
+        <localizacion>
+            <id>7</id>
+            <nombre>Cayo de Barlovento</nombre>
+            <terreno>cayo</terreno>
+            <x>650</x>
+            <y>250</y> 
+            <cofres>
+                <cofre>
+                    <nombre>Bolsas de Monedas de Oros</nombre>
+                    <peso>15</peso>
+                    <valor>1</valor>
+                </cofre>
+                <cofre>
+                    <nombre>Bolsas de Monedas de Oros</nombre>
+                    <peso>15</peso>
+                    <valor>1</valor>
+                </cofre>
+            </cofres>
+        </localizacion>  
+    </localizaciones>
+</servidor>

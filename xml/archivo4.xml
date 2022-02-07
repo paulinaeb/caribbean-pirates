@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<servidor>
+    <nombre>Pantalla 4</nombre>
+
+    <localizaciones>
+
+        <localizacion>
+            <id>8</id>
+            <nombre>La Gran Isla de la Española</nombre>
+            <terreno>isla</terreno>
+            <x>150</x>
+            <y>200</y>
+        </localizacion>
+
+        <localizacion>
+            <nombre>Puerto Rico</nombre>
+            <posicion>8</posicion>
+            <navegacion>16</navegacion>
+            <calamidades>
+                <calamidad>
+                    <nombre>Megalodonte</nombre>
+                    <quitaTripulacion>50</quitaTripulacion>
+                    <quitaMunicion>30</quitaMunicion>
+                    <quitaRacion>40</quitaRacion> 
+                    <probabilidad>0.01</probabilidad>
+                </calamidad>
+            </calamidades>
+        </localizacion>
+
+        <localizacion>
+            <nombre>Puerto de las Ballenas</nombre>
+            <posicion>8</posicion>
+            <navegacion>10</navegacion>
+            <calamidades>
+                <calamidad>
+                    <nombre>Dementores</nombre>
+                    <quitaTripulacion>10</quitaTripulacion>
+                    <quitaMunicion>0</quitaMunicion>
+                    <quitaRacion>30</quitaRacion> 
+                    <probabilidad>0.03</probabilidad>
+                </calamidad>
+            </calamidades>
+            <cofres>
+                <cofre>
+                    <nombre>Bolsas de Monedas de Oros</nombre>
+                    <peso>15</peso>
+                    <valor>1</valor>
+                </cofre>
+                <cofre>
+                    <nombre>Bolsas de Monedas de Oros</nombre>
+                    <peso>15</peso>
+                    <valor>1</valor>
+                </cofre>
+            </cofres>
+        </localizacion>
+
+        <localizacion>
+            <nombre>Bahía del cofre perdido</nombre>
+            <posicion>8</posicion>
+            <navegacion>10</navegacion>
+            <calamidades>
+                 <calamidad>
+                    <nombre>Lluvia ácida</nombre>
+                    <quitaTripulacion>15</quitaTripulacion>
+                    <quitaMunicion>0</quitaMunicion>
+                    <quitaRacion>30</quitaRacion> 
+                    <probabilidad>0.01</probabilidad>
+                </calamidad>
+            </calamidades>
+        </localizacion>
+
+        <localizacion>
+            <nombre>Cueva del pirata</nombre>
+            <posicion>8</posicion>
+            <navegacion>10</navegacion>
+            <calamidades>
+                <calamidad>
+                    <nombre>Dementores</nombre>
+                    <quitaTripulacion>10</quitaTripulacion>
+                    <quitaMunicion>0</quitaMunicion>
+                    <quitaRacion>30</quitaRacion> 
+                    <probabilidad>0.01</probabilidad>
+                </calamidad>
+            </calamidades>
+            <cofres>
+                <cofre>
+                    <nombre>Bolsas de Monedas de Oros</nombre>
+                    <peso>15</peso>
+                    <valor>1</valor>
+                </cofre>
+                <cofre>
+                    <nombre>Bolsas de Monedas de Oros</nombre>
+                    <peso>15</peso>
+                    <valor>1</valor>
+                </cofre>
+            </cofres>
+        </localizacion>
+
+        <localizacion>
+            <id>9</id>
+            <nombre>Cayo de los Pelicanos</nombre>
+            <terreno>cayo</terreno>
+            <x>600</x>
+            <y>60</y>
+            <cofres>
+                <cofre>
+                    <nombre>Bolsas de Monedas de Oros</nombre>
+                    <peso>15</peso>
+                    <valor>1</valor>
+                </cofre>
+                <cofre>
+                    <nombre>Bolsas de Monedas de Oros</nombre>
+                    <peso>15</peso>
+                    <valor>1</valor>
+                </cofre>
+            </cofres>
+        </localizacion>
+    </localizaciones>
+</servidor>

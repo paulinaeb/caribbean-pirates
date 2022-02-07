@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<servidor>
+    <nombre>Pantalla 2</nombre>
+    <naves>
+        <barco>
+            <nombre>HSM Invencible</nombre>
+            <tripulacion>70</tripulacion>
+            <municiones>150</municiones>
+            <raciones>150</raciones>
+            <jugador>realeza</jugador>
+            <base>Puerto de la Reina</base>
+            <idbase>3</idbase>
+            <mapas>
+                <mapa>
+                    <pantalla>Pantalla 1</pantalla>
+                    <cayo>Cayo del buen viento</cayo>
+                    <valorposible>5</valorposible>
+                </mapa>
+                <mapa>
+                    <pantalla>Pantalla 1</pantalla>
+                    <cayo>Cayo de sotavento</cayo>
+                    <valorposible>10</valorposible>
+                </mapa>
+            </mapas>
+        </barco>
+        <barco>
+            <nombre>HSM Interceptor</nombre>
+            <tripulacion>70</tripulacion>
+            <municiones>150</municiones>
+            <raciones>150</raciones>
+            <jugador>realeza</jugador>
+            <base>Puerto de la Reina</base>
+            <idbase>3</idbase>
+            <mapas>
+                <mapa>
+                    <pantalla>Pantalla 1</pantalla>
+                    <cayo>Cayo de sotavento</cayo>
+                    <valorposible>5</valorposible>
+                </mapa>
+                <mapa>
+                    <pantalla>Pantalla 1</pantalla>
+                    <cayo>Cayo del buen viento</cayo>
+                    <valorposible>10</valorposible>
+                </mapa>
+            </mapas>
+        </barco>
+    </naves>
+    <localizaciones>
+        <localizacion>
+            <id>3</id>
+            <nombre>Isla La Holandesa</nombre>
+            <terreno>isla</terreno>
+            <x>150</x>
+            <y>50</y> 
+        </localizacion>
+	<localizacion>
+            <nombre>Puerto de la Reina</nombre>
+            <posicion>3</posicion>
+            <navegacion>5</navegacion>
+            <calamidades>
+                <calamidad>
+                    <nombre>Omicron Variante marina</nombre>
+                    <quitaTripulacion>20</quitaTripulacion>
+                    <quitaMunicion>0</quitaMunicion>
+                    <quitaRacion>35</quitaRacion> 
+                    <probabilidad>0.05</probabilidad>
+                </calamidad>
+                <calamidad>
+                    <nombre>Megalodonte</nombre>
+                    <quitaTripulacion>30</quitaTripulacion>
+                    <quitaMunicion>30</quitaMunicion>
+                    <quitaRacion>45</quitaRacion> 
+                    <probabilidad>0.01</probabilidad>
+                </calamidad>
+            </calamidades>
+        </localizacion>
+	<localizacion>
+            <nombre>Bahía del Buen Reposo</nombre>
+            <posicion>3</posicion>
+            <navegacion>7</navegacion>
+            <mapas>
+                <mapa>
+                    <pantalla>Pantalla 3</pantalla>
+                    <isla>Isla Tortuga</isla>
+                    <lugar>Cueva de los huesos</lugar>
+                    <valorposible>10</valorposible>  
+                </mapa>
+                <mapa>  
+                    <pantalla>Pantalla 4</pantalla>
+                    <cayo>Cayo de los Pelicanos</cayo>
+                    <valorposible>15</valorposible>
+                </mapa>
+            </mapas>
+            <calamidades>
+                <calamidad>
+                    <nombre>Lluvia acida</nombre>
+                    <quitaTripulacion>10</quitaTripulacion>
+                    <quitaMunicion>0</quitaMunicion>
+                    <quitaRacion>15</quitaRacion> 
+                    <probabilidad>0.05</probabilidad>
+                </calamidad>
+                <calamidad>
+                    <nombre>Sirenas asesinas</nombre>
+                    <quitaTripulacion>12</quitaTripulacion>
+                    <quitaMunicion>17</quitaMunicion>
+                    <quitaRacion>20</quitaRacion> 
+                    <probabilidad>0.03</probabilidad>
+                </calamidad>
+            </calamidades>
+            <cofres>
+                <cofre>
+                    <nombre>Bolsas de Perlas</nombre>
+                    <peso>10</peso>
+                    <valor>20</valor>
+                </cofre>
+                <cofre>
+                    <nombre>Bolsas de Perlas</nombre>
+                    <peso>10</peso>
+                    <valor>20</valor>
+                </cofre>
+                <cofre>
+                    <nombre>Bolsas de Perlas</nombre>
+                    <peso>10</peso>
+                    <valor>20</valor>
+                </cofre>
+            </cofres>
+        </localizacion>
+	<localizacion>
+            <nombre>Cueva del bucanero</nombre>
+            <posicion>3</posicion>
+            <navegacion>7</navegacion>
+            <calamidades>
+                <calamidad>
+                    <nombre>Payaso asesino</nombre>
+                    <quitaTripulacion>5</quitaTripulacion>
+                    <quitaMunicion>13</quitaMunicion>
+                    <quitaRacion>8</quitaRacion> 
+                    <probabilidad>0.05</probabilidad>
+                </calamidad>
+            </calamidades>
+            <cofres>
+                <cofre>
+                    <nombre> Cofres de Joya</nombre>
+                    <peso>15</peso>
+                    <valor>20</valor>
+                </cofre>
+                <cofre>
+                    <nombre>Barras de Plata</nombre>
+                    <peso>50</peso>
+                    <valor>20</valor>
+                </cofre>
+            </cofres>
+            <mapas>
+                <mapa>
+                    <pantalla>Pantalla 3</pantalla>
+                    <isla>Isla Tortuga</isla>
+                    <lugar>Cueva de los huesos</lugar>
+                    <valorposible>20</valorposible>  
+                </mapa>
+                <mapa>
+                    <pantalla>Pantalla 4</pantalla>
+                    <cayo>Cayo de los pelicanos</cayo>
+                    <valorposible>10</valorposible>
+                </mapa>
+            </mapas>
+        </localizacion>
+        <localizacion>
+            <id>4</id>
+            <nombre>Isla El Naufrago</nombre>
+            <terreno>isla</terreno>
+            <x>400</x>
+            <y>250</y>
+        </localizacion>
+        <localizacion>
+            <nombre>Bahía de la esperanza</nombre>
+            <posicion>4</posicion>
+            <navegacion>10</navegacion>
+            <mapas>
+                <mapa>
+                    <pantalla>Pantalla 3</pantalla>
+                    <isla>Isla Tortuga</isla>
+                    <lugar>Cueva de los huesos</lugar>
+                    <valorposible>15</valorposible>  
+                </mapa>
+            </mapas>
+        </localizacion>
+   	<localizacion>
+            <nombre>Cueva del bucanero</nombre>
+            <posicion>4</posicion>
+            <navegacion>8</navegacion>
+            <calamidades>
+                <calamidad>
+                    <nombre>Tormenta electrica</nombre>
+                    <quitaTripulacion>10</quitaTripulacion>
+                    <quitaMunicion>0</quitaMunicion>
+                    <quitaRacion>20</quitaRacion> 
+                    <probabilidad>0.05</probabilidad>
+                </calamidad>
+                <calamidad>
+                    <nombre>Dementores</nombre>
+                    <quitaTripulacion>10</quitaTripulacion>
+                    <quitaMunicion>0</quitaMunicion>
+                    <quitaRacion>30</quitaRacion> 
+                    <probabilidad>0.01</probabilidad>
+                </calamidad>
+            </calamidades>
+            <cofres>
+                <cofre>
+                    <nombre>Bolsas de Monedas de Oros</nombre>
+                    <peso>15</peso>
+                    <valor>1</valor>
+                </cofre>
+                 <cofre>
+                    <nombre>Bolsas de Monedas de Oros</nombre>
+                    <peso>15</peso>
+                    <valor>1</valor>
+                </cofre>
+            </cofres>
+        </localizacion>
+    </localizaciones>
+</servidor>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<servidor>
+    <nombre>Pantalla 1</nombre>
+    <naves>
+        <barco>
+            <nombre>Vengaza Errante</nombre>
+            <tripulacion>150</tripulacion>
+            <municiones>250</municiones>
+            <raciones>200</raciones>
+            <jugador>pirata</jugador>
+            <base>Puerto Real</base>
+            <idbase>0</idbase>
+            <mapas>
+                <mapa>
+                    <pantalla>Pantalla 1</pantalla>
+                    <isla>Isla Nueva Esperanza</isla>
+                    <lugar>Puerto Real</lugar>
+                    <valorposible>0</valorposible>
+                </mapa>
+                <mapa>
+                    <pantalla>Pantalla 1</pantalla>
+                    <cayo>Cayo del buen viento</cayo>
+                    <valorposible>5</valorposible>
+                </mapa>
+                <mapa>
+                    <pantalla>Pantalla 1</pantalla>
+                    <cayo>Cayo de sotavento</cayo>
+                    <valorposible>10</valorposible>
+                </mapa>
+                <mapa>
+                    <pantalla>Pantalla 3</pantalla>
+                    <isla>Isla Tortuga</isla>
+                    <lugar>Cueva de los huesos</lugar>
+                    <valorposible>15</valorposible>
+                </mapa>
+            </mapas>
+        </barco>
+    </naves>
+    <localizaciones>
+        <localizacion>
+            <id>0</id>
+            <nombre>Isla Nueva Esperanza</nombre>
+            <terreno>isla</terreno>
+            <x>15</x>
+            <y>15</y> 
+        </localizacion>
+
+        <localizacion>
+            <nombre>Puerto Real</nombre>
+            <posicion>0</posicion>
+            <navegacion>5</navegacion>
+            <calamidades>
+                <calamidad>
+                    <nombre>Dragón bola de fuego chino</nombre>
+                    <quitaTripulacion>30</quitaTripulacion>
+                    <quitaMunicion>50</quitaMunicion>
+                    <quitaRacion>30</quitaRacion> 
+                    <probabilidad>0.01</probabilidad>
+                </calamidad>
+                <calamidad>
+                    <nombre>Sirenas asesinas</nombre>
+                    <quitaTripulacion>15</quitaTripulacion>
+                    <quitaMunicion>10</quitaMunicion>
+                    <quitaRacion>5</quitaRacion> 
+                    <probabilidad>0.01</probabilidad>
+                </calamidad>
+            </calamidades>
+            <cofres>
+                <cofre>
+                    <nombre>Bolsas de Perlas</nombre>
+                    <peso>10</peso>
+                    <valor>1</valor>
+                </cofre>
+                <cofre>
+                    <nombre>Bolsas de Monedas de Oros</nombre>
+                    <peso>15</peso>
+                    <valor>1</valor>
+                </cofre>
+                <cofre>
+                    <nombre>Cofres de piedras preciosas</nombre>
+                    <peso>10</peso>
+                    <valor>1</valor>
+                </cofre>
+                <cofre>
+                    <nombre>Bolsas de Monedas de Oros</nombre>
+                    <peso>15</peso>
+                    <valor>1</valor>
+                </cofre>
+            </cofres>
+        </localizacion>
+
+        <localizacion>
+            <nombre>Cala de los Mártires</nombre>
+            <posicion>0</posicion>
+            <navegacion>5</navegacion>
+            <calamidades>
+                <calamidad>
+                    <nombre>Dementores</nombre>
+                    <quitaTripulacion>10</quitaTripulacion>
+                    <quitaMunicion>0</quitaMunicion>
+                    <quitaRacion>30</quitaRacion> 
+                    <probabilidad>0.01</probabilidad>
+                </calamidad>
+                <calamidad>
+                    <nombre>Lluvia ácida</nombre>
+                    <quitaTripulacion>15</quitaTripulacion>
+                    <quitaMunicion>0</quitaMunicion>
+                    <quitaRacion>30</quitaRacion> 
+                    <probabilidad>0.01</probabilidad>
+                </calamidad>
+            </calamidades>
+        </localizacion>
+
+        <localizacion>
+            <nombre>Playa de las perlas</nombre>
+            <posicion>0</posicion>
+            <navegacion>5</navegacion>
+            <cofres>
+                <cofre>
+                    <nombre>Mapas</nombre>
+                    <peso>5</peso>
+                    <valor>1</valor>
+                </cofre>
+                <cofre>
+                    <nombre>Cofres de piedras preciosas</nombre>
+                    <peso>10</peso>
+                    <valor>1</valor>
+                </cofre>
+                <cofre>
+                    <nombre>Cofres de piedras preciosas</nombre>
+                    <peso>10</peso>
+                    <valor>1</valor>
+                </cofre>
+                <cofre>
+                    <nombre>Cofres de piedras preciosas</nombre>
+                    <peso>10</peso>
+                    <valor>1</valor>
+                </cofre>
+            </cofres>
+        </localizacion>
+
+        <localizacion>
+            <id>1</id>
+            <nombre>Cayo del buen viento</nombre>
+            <terreno>cayo</terreno>
+            <navegacion>5</navegacion>
+            <x>400</x>
+            <y>300</y>
+            <calamidades>
+                <calamidad>
+                    <nombre>Dementores</nombre>
+                    <quitaTripulacion>10</quitaTripulacion>
+                    <quitaMunicion>0</quitaMunicion>
+                    <quitaRacion>30</quitaRacion> 
+                    <probabilidad>0.01</probabilidad>
+                </calamidad>
+            </calamidades>
+            <cofres>
+                <cofre>
+                    <nombre>Barra de plata</nombre>
+                    <peso>50</peso>
+                    <valor>1</valor>
+                </cofre>
+                <cofre>
+                    <nombre>Barras de oro</nombre>
+                    <peso>25</peso>
+                    <valor>1</valor>
+                </cofre>
+                <cofre>
+                    <nombre>Barras de oro</nombre>
+                    <peso>25</peso>
+                    <valor>1</valor>
+                </cofre>
+            </cofres>
+	    <mapas>
+                <mapa>
+                    <pantalla>Pantalla 3</pantalla>
+                    <isla>Isla Tortuga</isla>
+                    <lugar>Cueva de los huesos</lugar>
+                    <valorposible>20</valorposible>  
+                </mapa>
+                <mapa>
+                    <pantalla>Pantalla 4</pantalla>
+                    <cayo>Cayo de los Pelicanos</cayo>
+                    <valorposible>25</valorposible>
+                </mapa>
+            </mapas>
+        </localizacion>
+
+         <localizacion>
+            <id>2</id>
+            <nombre>Cayo de sotavento</nombre>
+            <terreno>cayo</terreno>
+            <navegacion>5</navegacion>
+            <x>600</x>
+            <y>100</y>
+            <calamidades>
+                <calamidad>
+                    <nombre>Payaso acuático asesino</nombre>
+                    <quitaTripulacion>10</quitaTripulacion>
+                    <quitaMunicion>20</quitaMunicion>
+                    <quitaRacion>10</quitaRacion> 
+                    <probabilidad>0.01</probabilidad>
+                </calamidad>
+            </calamidades>
+            <cofres>
+                <cofre>
+                    <nombre>Bolsas de Monedas de Oros</nombre>
+                    <peso>15</peso>
+                    <valor>1</valor>
+                </cofre>
+                <cofre>
+                    <nombre>Barras de Plata</nombre>
+                    <peso>50</peso>
+                    <valor>1</valor>
+                </cofre>
+                <cofre>
+                    <nombre>Bolsas de Monedas de Oros</nombre>
+                    <peso>15</peso>
+                    <valor>1</valor>
+                </cofre>
+                <cofre>
+                    <nombre>Cofres de piedras preciosas</nombre>
+                    <peso>10</peso>
+                    <valor>1</valor>
+                </cofre>
+            </cofres>
+            <mapas>
+                <mapa>
+                    <pantalla>Pantalla 3</pantalla>
+                    <isla>Isla Tortuga</isla>
+                    <lugar>Cueva de los huesos</lugar>
+                    <valorposible>20</valorposible>  
+                </mapa>
+                <mapa>
+                    <pantalla>Pantalla 4</pantalla>
+                    <cayo>Cayo de los Pelicanos</cayo>
+                    <valorposible>25</valorposible>
+                </mapa>
+            </mapas>
+        </localizacion>
+    </localizaciones>
+</servidor>
