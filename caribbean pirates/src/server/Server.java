@@ -45,12 +45,10 @@ public class Server {
                 base = elemBoat.getElementsByTagName("base").item(0).getTextContent();
                 idBase = Integer.parseInt(elemBoat.getElementsByTagName("idbase").item(0).getTextContent());
                 barco = new Barco(name, player, crew, ammunition, portions, base, idBase);
-                if (player == 0) {
-                    cofre = new Cofre(400);
-                } else {
-                    cofre = new Cofre(200);
-                }
-                // se asume que siempre se va a dar minimo un mapa al barco 
+                if (player == 0) 
+                    cofre = new Cofre(420); 
+                else 
+                    cofre = new Cofre(210);  
                 Map(elemBoat,"boat");
                 barco.setCofre(cofre);
                 server.addBarco(barco); 
@@ -134,22 +132,19 @@ public class Server {
             navigation = -1;
             node1 = nList1.item(i);
             elemBoat = (Element) node1;
-            name = elemBoat.getElementsByTagName("nombre").item(0).getTextContent();
-            // si es cayo o isla
+            name = elemBoat.getElementsByTagName("nombre").item(0).getTextContent(); 
             if (elemBoat.getElementsByTagName("id").item(0) != null) {
                 id = Integer.parseInt(elemBoat.getElementsByTagName("id").item(0).getTextContent());
                 groundType = elemBoat.getElementsByTagName("terreno").item(0).getTextContent();
                 x = Integer.parseInt(elemBoat.getElementsByTagName("x").item(0).getTextContent());
                 y = Integer.parseInt(elemBoat.getElementsByTagName("y").item(0).getTextContent());
-                if (groundType.equals("cayo")) {
+                if (groundType.equals("cayo")) 
                     server.addCayo(new Objeto(name,"cayo", 200,200,x, y));
-                } else if(groundType.equals("isla")) {
+                 else if(groundType.equals("isla")) 
                     server.addIsla(new Objeto(name,"isla",362,282,x,y));
-                }
             }
             if (elemBoat.getElementsByTagName("navegacion").item(0) != null) 
-                navigation = Integer.parseInt(elemBoat.getElementsByTagName("navegacion").item(0).getTextContent());
-            // se detecta si la ubicacion tiene padre
+                navigation = Integer.parseInt(elemBoat.getElementsByTagName("navegacion").item(0).getTextContent()); 
             if (elemBoat.getElementsByTagName("posicion").item(0) != null) {
                 parent = Integer.parseInt(elemBoat.getElementsByTagName("posicion").item(0).getTextContent());
                 sitio = new Sitio(parent, name, groundType, navigation, parent);
@@ -160,9 +155,8 @@ public class Server {
             else  
                 cofre = null; 
             Treasure(); 
-            if((elemBoat.getElementsByTagName("mapas").item(0) != null)){
-                Map(elemMap,"map");
-            } 
+            if((elemBoat.getElementsByTagName("mapas").item(0) != null))
+                Map(elemMap,"map"); 
             Calamity();
             sitio.setCofre(cofre);
             server.addSitio(sitio);

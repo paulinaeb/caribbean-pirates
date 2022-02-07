@@ -1,6 +1,5 @@
 package server;
-
-import java.util.Iterator;
+ 
 import views.ImgBarco;
 
 public class Barco {
@@ -307,7 +306,7 @@ public class Barco {
         sitioActualLocal = null; 
         int tiempo = ServerUtils.tiempos[inicio.id][destino.id];
         System.out.println("Ha partido " + name + " rumbo a " + destino.nombre);
-        System.out.println("A "+ name + " tardará " + tiempo + " segundos ir desde "+ inicio.nombre +" hasta "+ destino.nombre);
+        System.out.println(name + " tardará " + tiempo + " segundos ir desde "+ inicio.nombre +" hasta "+ destino.nombre);
         sleep(tiempo);
         return destino;
     }
@@ -393,7 +392,7 @@ public class Barco {
         ImgBarco imgbarco =  ServerUtils.imgbarcos.get(idimg);
         imgbarco.label.setText(null);
         imgbarco.setLocation(-300, 400);
-        System.out.println("A "+ name + " tardará " + tiempo + " segundos ir desde "+ sitioActualLocal.nombre +" hasta "+ sitioDestino);
+        System.out.println(name + " tardará " + tiempo + " segundos ir desde "+ sitioActualLocal.nombre +" hasta "+ sitioDestino);
         sleep(tiempo / 2);
     }
 
@@ -524,11 +523,12 @@ public class Barco {
             if (full==true)
                 break; 
             System.out.println(name + " - Objetivo: "+ objetivo.nombre); 
+            if (objetivo.time<0)
+                objetivo.time=5; 
             System.out.println(name + ": Explorar " + objetivo.nombre +" tardará " + objetivo.time + " segundos..");
             sleep(objetivo.getTime());
             System.out.println(name + ": Cofre del tesoro encontrado!");  
-            while(cofre.plenitudBarco() < 1 && !objetivo.cofre.tesoros.isEmpty()) {
-                System.out.println(name +": Porcentaje de ocupación del cofre: "+ cofre.plenitudBarco()*100);
+            while(cofre.plenitudBarco() < 1 && !objetivo.cofre.tesoros.isEmpty()) { 
                 Tesoro tesoroTomando = objetivo.getCofre().getTesoros().get(0);
                 for(Tesoro j : objetivo.cofre.tesoros) 
                     if (j.getValor()==3) 
@@ -556,7 +556,7 @@ public class Barco {
                     full = true; 
                     break; 
                 } else {
-                    System.out.println(this.getNombre()+": Peso actual: " + this.getCofre().getValorTotal() + " Porcentaje ocupado del cofre : " + this.getCofre().plenitudBarco()*100);
+                    System.out.println(this.getNombre()+": Peso actual: " + this.getCofre().getValorTotal() + " Porcentaje ocupación del cofre : " + this.getCofre().plenitudBarco()*100);
                     objetivo.getCofre().deleteTreasure(tesoroTomando); 
                     sitioActualLocal.updateAprox();
                 } 

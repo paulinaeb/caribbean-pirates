@@ -38,10 +38,10 @@ public class Client {
             pirata.maquinaActual = "Pantalla 1";
             pirata.maquinaDestino = "Pantalla 1";  
             server.recibe(pirata);  
-            Agent real1 = new Agent("real1", por_visitar ,port);
+            Agent real1 = new Agent("HSM Interceptor", por_visitar ,port);
             real1.maquinaActual = "Pantalla 1";
             real1.maquinaDestino = "Pantalla 2";
-            Agent real2 = new Agent("real2", por_visitar, port); 
+            Agent real2 = new Agent("HSM Invencible", por_visitar, port); 
             real2.maquinaActual = "Pantalla 1";
             real2.maquinaDestino = "Pantalla 2"; 
             server.recibe(real1);
